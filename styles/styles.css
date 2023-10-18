@@ -37,6 +37,7 @@ body {
 .gameverse__log {
   width: 9rem;
   height: 7rem;
+  border-radius: 100%;
 }
 
 .navbar__list {
@@ -53,7 +54,9 @@ body {
   padding-bottom: 1rem;
 }
 /* MAIN */
-
+main {
+  padding-top: 150px;
+}
 /* HERO */
 .hero {
   display: flex;
@@ -61,7 +64,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding: 23rem 0rem;
+  padding: 20.2rem 0rem;
+  background-image: url(../imgs/hero.jpg);
 }
 
 .hero__title h1 {
@@ -76,6 +80,7 @@ body {
 
 .hero__description p {
   color: var(--grey);
+  max-width: 1000px;
 }
 
 .btn {
