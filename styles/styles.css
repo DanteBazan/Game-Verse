@@ -308,6 +308,14 @@ textarea {
   width: 20rem;
 }
 
+.btn__form {
+  background: var(--violet);
+  color: var(--white);
+  padding: 0.6rem 2rem;
+}
+
+/* FOOTER */
+
 .footer {
   display: flex;
   justify-content: center;
