@@ -257,3 +257,64 @@ main {
 .btn__semore {
   padding: 0.8rem;
 }
+
+/* CONTACT */
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__title-contact h1 {
+  padding: 2rem 0rem;
+}
+
+.descrp__contact {
+  font-size: 1.1rem;
+  max-width: 30rem;
+  text-align: center;
+}
+
+.container__forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: var(--black);
+  padding: 4rem 8rem;
+}
+
+input {
+  text-align: center;
+  border: 1px solid var(--skyblue);
+  border-radius: 0.3rem;
+  color: var(--blackcl);
+  width: 20rem;
+  height: 2rem;
+  background: var(--blackcl);
+  color: var(--white);
+}
+
+textarea {
+  border: 1px solid var(--skyblue);
+  resize: none;
+  text-align: center;
+  background: var(--blackcl);
+  color: var(--white);
+  height: 12rem;
+  width: 20rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.title__footer {
+  font-size: 1rem;
+}
