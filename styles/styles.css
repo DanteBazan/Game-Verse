@@ -21,6 +21,7 @@
   --skyblue: #0c99e0;
   --red: #d5241e;
   --yellow: #e6f010;
+  --greyos: #454343;
 }
 
 body {
@@ -78,12 +79,11 @@ body {
 
 /* MAIN */
 main {
-  padding-top: 4.6rem;
+  padding-top: 4.7rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
 }
 /* HERO */
 .hero {
@@ -110,7 +110,7 @@ main {
 
 .hero__title h1 {
   font-size: 2rem;
-  color: var(--white);
+  color: var(--red);
   max-width: 15rem;
 }
 
@@ -203,6 +203,12 @@ main {
   /* background: #000000; */
   padding: 0.7rem;
   cursor: pointer;
+  background: var(--greyos);
+  width: 14rem;
+}
+
+.container__products:hover {
+  background: #363535;
 }
 
 .thelastofus {
@@ -237,7 +243,7 @@ main {
 .container__btn {
   display: flex;
   /* gap: 5.6rem; */
-  gap: 5.6rem;
+  gap: 5.1rem;
 }
 
 .btn__products {
@@ -258,17 +264,41 @@ main {
   padding: 0.8rem;
 }
 
+.btn__semore:hover {
+  background: var(--red);
+}
+
 /* CONTACT */
 .contact {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__title-contact {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container__title-contact h1 {
   padding: 2rem 0rem;
+}
+
+.container__contact {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .descrp__contact {
@@ -312,6 +342,11 @@ textarea {
   background: var(--violet);
   color: var(--white);
   padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.btn__form:hover {
+  background: var(--red);
 }
 
 /* FOOTER */
@@ -320,7 +355,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
 }
 
 .title__footer {
