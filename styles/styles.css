@@ -90,8 +90,9 @@ main {
   justify-content: center;
   gap: 4rem;
   padding: 13rem 0rem;
-  background: url("../imgs/df73plw-b31e013b-800f-4367-a7fa-cdeab018158e.jpg");
-  background-position: center;
+  background: url("../imgs/my-fan-art-resident-evil-4-remake-leon-s-kennedy-wallpaper-v0-msohnwpqcipa1.webp");
+  background-position-y: 80px;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
