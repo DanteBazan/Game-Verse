@@ -64,21 +64,6 @@ body {
 
 /* REGISTER */
 
-.container__account {
-  display: flex;
-  gap: 2rem;
-}
-
-.container__account a {
-  font-weight: 700;
-}
-
-.container__account a:hover {
-  border-bottom: 5px solid var(--violet);
-  padding-bottom: 0.7rem;
-  color: var(--violet);
-}
-
 /* MAIN */
 main {
   padding-top: 4.7rem;

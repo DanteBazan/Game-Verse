@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/mediaquires.css" />
     <link rel="icon" href="./logo/Free_Sample_By_Wix (1).jpg" />
     <title>GameVerse</title>
   </head>
@@ -13,19 +18,18 @@
         <b class="title__logo">GameVerse</b>
       </div>
       <nav class="navbar">
+        <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
+
         <ul class="navbar__list">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#products">Products</a></li>
           <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div>
-        <ul class="container__account">
           <li><a href="./login.html">Sign in</a></li>
           <li><a href="./register.html">Sign Up </a></li>
         </ul>
-      </div>
+      </nav>
     </header>
     <main>
       <section id="home" class="hero">
