@@ -204,10 +204,12 @@ main {
   cursor: pointer;
   background: var(--greyos);
   width: 14rem;
+  height: 370px;
 }
 
 .container__products:hover {
   background: #363535;
+  box-shadow: 1px 2px 20px 5px var(--violet);
 }
 
 .thelastofus {
@@ -237,6 +239,10 @@ main {
 
 .product__title {
   max-width: 200px;
+}
+
+.product__title-thelastofus {
+  max-width: 100px;
 }
 
 .container__btn {
