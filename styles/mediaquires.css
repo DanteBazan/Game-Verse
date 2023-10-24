@@ -1,4 +1,8 @@
 @media (max-width: 1600px) {
+  .hero {
+    gap: 2rem;
+  }
+
   .btn__products {
     font-size: 11px;
   }
@@ -28,6 +32,10 @@
   /* .hero {
     gap: 2rem;
   } */
+
+  .hero {
+    gap: 2rem;
+  }
 
   .products {
     max-width: 900px;
@@ -70,11 +78,144 @@
   .hero {
     flex-direction: column;
     gap: 8rem;
+    background-image: url(../imgs/hero-cel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
   .container__hero-description {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  /* CORTAAAAA ACA */
+
+  @media (max-width: 800px) {
+    .container__trailer iframe {
+      width: 450px;
+      height: 250px;
+    }
+
+    .about__description p {
+      max-width: 350px;
+    }
+
+    .container__info p {
+      max-width: 350px;
+      text-align: center;
+    }
+
+    .container__iframe iframe {
+      width: 400px;
+      height: 300px;
+    }
+  }
+
+  /* CORTAAAAAA ACA */
+
+  @media (max-width: 580px) {
+    .container__forms p {
+      max-width: 300px;
+    }
+  }
+
+  /* CORTAAAAA ACA */
+
+  @media (max-width: 480px) {
+    .container__trailer iframe {
+      width: 320px;
+      height: 190px;
+    }
+
+    .container__iframe iframe {
+      width: 300px;
+      height: 250px;
+    }
+
+    .about__description {
+      max-width: 280px;
+    }
+
+    .container__info {
+      max-width: 280px;
+    }
+
+    .container__forms {
+      width: 320px;
+    }
+
+    input {
+      width: 280px;
+    }
+
+    textarea {
+      width: 280px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .title__logo {
+      font-size: 1rem;
+    }
+
+    .navbar i {
+      font-size: 1.5rem;
+    }
+
+    .hero__title h1 {
+      font-size: 1.5rem;
+    }
+
+    .hero__description p {
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      font-size: 0.6rem;
+    }
+
+    .container__trailer iframe {
+      width: 280px;
+      height: 150px;
+    }
+
+    .about__title h2 {
+      font-size: 1.5rem;
+    }
+
+    .about__description p {
+      font-size: 1.3rem;
+    }
+
+    .products__section-h3 {
+      font-size: 1.5rem;
+    }
+
+    .container__title-contact h3 {
+      font-size: 1.5rem;
+    }
+
+    .container__iframe iframe {
+      width: 280px;
+    }
+
+    .container__forms {
+      width: 280px;
+    }
+
+    input {
+      width: 250px;
+    }
+
+    textarea {
+      width: 250px;
+    }
+
+    .title__footer {
+      font-size: 0.9rem;
+    }
   }
 }

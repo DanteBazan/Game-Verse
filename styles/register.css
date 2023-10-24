@@ -128,5 +128,6 @@ p {
 }
 
 .title__footer {
+  text-align: center;
   font-size: 1rem;
 }
