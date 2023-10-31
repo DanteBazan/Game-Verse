@@ -188,9 +188,9 @@ main {
 
 .card__container {
   display: flex;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
 }
 
 .container__products {
@@ -273,6 +273,49 @@ main {
   background: var(--red);
 }
 
+/* SECTION THE LAST OF US */
+.section__thelastofus {
+  width: 100%;
+  padding: 13rem 0rem;
+  background-image: url(../imgs/ellie.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50rem; */
+  gap: 4rem;
+}
+
+.thelast__description {
+  max-width: 15rem;
+  font-size: 1.2rem;
+}
+
+/* SECTION MILES MORALES */
+.section__milesmorales {
+  width: 100%;
+  padding: 13rem 0rem;
+  background-image: url(../imgs/spider-man-miles-morales-3840x2160-8286.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50rem; */
+  gap: 4rem;
+}
+
+hr {
+  height: 0.5rem;
+  width: 100%;
+  border: none;
+}
+
 /* CONTACT */
 .contact {
   display: flex;
@@ -285,6 +328,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .container__title-contact h3 {

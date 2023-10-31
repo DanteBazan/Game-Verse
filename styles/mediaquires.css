@@ -95,6 +95,18 @@
     font-size: 1.8rem;
   }
 
+  .section__thelastofus {
+    flex-direction: column;
+    gap: 8rem;
+    padding: 13rem 0rem;
+  }
+
+  .section__milesmorales {
+    flex-direction: column;
+    gap: 8rem;
+    padding: 13rem 0rem;
+  }
+
   /* CORTAAAAA ACA */
 
   @media (max-width: 800px) {
@@ -175,6 +187,7 @@
 
     .hero__description p {
       font-size: 1.2rem;
+      max-width: 12rem;
     }
 
     .btn {
