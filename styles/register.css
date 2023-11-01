@@ -150,14 +150,14 @@ p {
   .navbar ul {
     background: #151515;
     width: 100%;
-    height: calc(40vh - 1.5rem);
+    height: calc(60vh - 1.5rem);
     position: absolute;
     top: 5rem;
     left: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.2em;
+    gap: 3em;
     display: none;
   }
 
@@ -179,6 +179,7 @@ p {
 @media (max-width: 500px) {
   .container__register {
     width: 250px;
+    padding: 0rem 1rem;
   }
 
   .inputs {
