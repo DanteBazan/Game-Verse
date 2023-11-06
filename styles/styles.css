@@ -74,6 +74,7 @@ body {
   border-bottom: 5px solid var(--violet);
   padding-bottom: 0.7rem;
   color: var(--violet);
+  transition-duration: 0.3s;
 }
 
 /* MAIN */
@@ -127,6 +128,11 @@ main {
   background: var(--violet);
   padding: 1rem;
   border-radius: 1rem;
+}
+
+.btn:hover {
+  padding: 1.2rem;
+  transition: 0.5s;
 }
 
 .hr {
@@ -210,6 +216,7 @@ main {
 .container__products:hover {
   background: #363535;
   box-shadow: 1px 1px 10px 1px var(--violet);
+  transition-duration: 0.5s;
 }
 
 .thelastofus {
